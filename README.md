@@ -1,2 +1,23 @@
-# calculator_frontend
-TrueNorth Code Challenge - Frontend
+# Frontend: Arithmetic Calculator REST API Code Challenge (Marcus Andrade)
+
+Project to handle all backend operations (calculator_backend)
+
+* React 18
+
+## Frontend
+
+## Install dependencies
+```
+npm install
+```
+
+## Run application
+```
+npm start
+```
+
+## Run tests
+```
+npm test
+```
+
