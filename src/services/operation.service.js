@@ -1,7 +1,7 @@
 import axios from "axios";
 import authHeader from "./auth-header";
 
-const API_URL = "http://truenorthcalculator-env.eba-3pmpvwpz.us-west-2.elasticbeanstalk.com/api/v1/operations";
+const API_URL = "http://calculator-env.eba-8niu3zcp.us-east-2.elasticbeanstalk.com/api/v1/operations";
 
 const getOperations = () => {
   return axios.get(API_URL + "/all", { headers: authHeader() });

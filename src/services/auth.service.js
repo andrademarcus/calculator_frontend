@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://truenorthcalculator-env.eba-3pmpvwpz.us-west-2.elasticbeanstalk.com/api/auth";
+const API_URL = "http://calculator-env.eba-8niu3zcp.us-east-2.elasticbeanstalk.com/api/auth";
 
 const login = (username, password) => {
   return axios
