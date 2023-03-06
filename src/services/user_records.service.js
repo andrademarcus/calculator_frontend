@@ -2,8 +2,7 @@ import axios from "axios";
 import authHeader from "./auth-header";
 import moment from "moment";
 
-const API_URL = "http://localhost:8080/api/v1/userRecord";
-//const API_URL = "http://truenorthcalculator-env.eba-3pmpvwpz.us-west-2.elasticbeanstalk.com/api/v1/userRecord";
+const API_URL = "http://truenorthcalculator-env.eba-3pmpvwpz.us-west-2.elasticbeanstalk.com/api/v1/userRecord";
 
 const getUserRecords = (page, pageSize, startDate, endDate, sortBy, sortDirection) => {
   let url = API_URL + "/findAll?page=" + page + "&pageSize=" + pageSize + "&sortBy=" + sortBy + "&sortDirection=" + sortDirection;
